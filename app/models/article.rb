@@ -13,4 +13,8 @@ class Article < ApplicationRecord
     created_at.strftime('%B %e, %Y')
   end
 
+  # def sign(message, key):
+  #   return signature
+  # end
+
 end
